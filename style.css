@@ -1,0 +1,377 @@
+* {
+
+‎    margin: 0;
+
+‎    padding: 0;
+
+‎    box-sizing: border-box;
+
+‎    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+‎}
+
+‎
+
+‎body {
+
+‎    background-color: #f9fbf9;
+
+‎    color: #333;
+
+‎    line-height: 1.6;
+
+‎}
+
+‎
+
+‎/* ہیڈر */
+
+‎header {
+
+‎    background-color: #0f4c3a;
+
+‎    color: #fff;
+
+‎    padding: 1rem 5%;
+
+‎    display: flex;
+
+‎    justify-content: space-between;
+
+‎    align-items: center;
+
+‎    position: sticky;
+
+‎    top: 0;
+
+‎    z-index: 1000;
+
+‎}
+
+‎
+
+‎header .logo h1 {
+
+‎    font-size: 1.5rem;
+
+‎    color: #d4af37;
+
+‎}
+
+‎
+
+‎nav ul {
+
+‎    display: flex;
+
+‎    list-style: none;
+
+‎}
+
+‎
+
+‎nav ul li {
+
+‎    margin-right: 20px;
+
+‎}
+
+‎
+
+‎nav ul li a {
+
+‎    color: #fff;
+
+‎    text-decoration: none;
+
+‎    font-weight: 500;
+
+‎    transition: 0.3s;
+
+‎}
+
+‎
+
+‎nav ul li a:hover {
+
+‎    color: #d4af37;
+
+‎}
+
+‎
+
+‎/* ہیرو سیکشن */
+
+‎.hero {
+
+‎    background: linear-gradient(rgba(15, 76, 58, 0.8), rgba(15, 76, 58, 0.8)), url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1350&q=80');
+
+‎    background-size: cover;
+
+‎    background-position: center;
+
+‎    color: white;
+
+‎    text-align: center;
+
+‎    padding: 100px 20px;
+
+‎}
+
+‎
+
+‎.hero h2 {
+
+‎    font-size: 2.5rem;
+
+‎    margin-bottom: 15px;
+
+‎    color: #d4af37;
+
+‎}
+
+‎
+
+‎.hero p {
+
+‎    font-size: 1.2rem;
+
+‎    max-width: 600px;
+
+‎    margin: 0 auto 25px auto;
+
+‎}
+
+‎
+
+‎.btn {
+
+‎    display: inline-block;
+
+‎    background-color: #d4af37;
+
+‎    color: #0f4c3a;
+
+‎    padding: 12px 30px;
+
+‎    text-decoration: none;
+
+‎    font-weight: bold;
+
+‎    border-radius: 25px;
+
+‎    transition: 0.3s;
+
+‎}
+
+‎
+
+‎.btn:hover {
+
+‎    background-color: #fff;
+
+‎}
+
+‎
+
+‎/* سیکشنز */
+
+‎section {
+
+‎    padding: 60px 8%;
+
+‎    text-align: center;
+
+‎}
+
+‎
+
+‎section h2 {
+
+‎    font-size: 2rem;
+
+‎    color: #0f4c3a;
+
+‎    margin-bottom: 30px;
+
+‎    position: relative;
+
+‎}
+
+‎
+
+‎/* خدمات */
+
+‎.service-cards {
+
+‎    display: grid;
+
+‎    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+‎    gap: 25px;
+
+‎}
+
+‎
+
+‎.card {
+
+‎    background: white;
+
+‎    padding: 30px 20px;
+
+‎    border-radius: 10px;
+
+‎    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+
+‎    border-top: 4px solid #d4af37;
+
+‎    transition: 0.3s;
+
+‎}
+
+‎
+
+‎.card:hover {
+
+‎    transform: translateY(-5px);
+
+‎}
+
+‎
+
+‎.card i {
+
+‎    font-size: 2.5rem;
+
+‎    color: #0f4c3a;
+
+‎    margin-bottom: 15px;
+
+‎}
+
+‎
+
+‎.card h3 {
+
+‎    margin-bottom: 10px;
+
+‎    color: #0f4c3a;
+
+‎}
+
+‎
+
+‎/* فارم */
+
+‎.contact-container {
+
+‎    max-width: 500px;
+
+‎    margin: 0 auto;
+
+‎    background: white;
+
+‎    padding: 30px;
+
+‎    border-radius: 10px;
+
+‎    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+
+‎}
+
+‎
+
+‎form {
+
+‎    display: flex;
+
+‎    flex-direction: column;
+
+‎    gap: 15px;
+
+‎}
+
+‎
+
+‎input, select, textarea {
+
+‎    width: 100%;
+
+‎    padding: 12px;
+
+‎    border: 1px solid #ccc;
+
+‎    border-radius: 5px;
+
+‎    outline: none;
+
+‎}
+
+‎
+
+‎.btn-submit {
+
+‎    background-color: #25d366; /* WhatsApp Green */
+
+‎    color: white;
+
+‎    padding: 12px;
+
+‎    border: none;
+
+‎    border-radius: 5px;
+
+‎    font-weight: bold;
+
+‎    font-size: 1rem;
+
+‎    cursor: pointer;
+
+‎    transition: 0.3s;
+
+‎}
+
+‎
+
+‎.btn-submit:hover {
+
+‎    background-color: #128c7e;
+
+‎}
+
+‎
+
+‎/* فوٹر */
+
+‎footer {
+
+‎    background-color: #0f4c3a;
+
+‎    color: white;
+
+‎    text-align: center;
+
+‎    padding: 20px;
+
+‎    font-size: 0.9rem;
+
+‎}
+
+‎
+
+‎/* رسپانسو */
+
+‎@media (max-width: 768px) {
+
+‎    header {
+
+‎        flex-direction: column;
+
+‎        gap: 10px;
+
+‎    }
+
+‎}
+
+‎
